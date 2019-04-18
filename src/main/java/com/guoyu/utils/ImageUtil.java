@@ -16,12 +16,12 @@ public class ImageUtil {
     /**
      * 用来生成告警图片，在原来的图片originPathName的基础上画上方框之后，并生成到新的图片地址generatedPathName
      *
-     * @param originPathName    原始图片的地址,例如:
-     * @param generatedPathName 生成告警之后的图片地址
-     * @param x                 离原点横向的距离（原点的位置为图片的左上角）,单位为像素
-     * @param y                 离原点纵向的距离（原点的位置为图片的左上角）,单位为像素
-     * @param width             方框的宽度,单位为像素
-     * @param height            方框的高度,单位为像素
+     * @param originPathName    原始图片的地址；例如: /home/123.jpg
+     * @param generatedPathName 生成告警之后的图片地址；例如： /home/456.jpg
+     * @param x                 离原点横向的距离（原点的位置为图片的左上角）,单位为像素；例如：50
+     * @param y                 离原点纵向的距离（原点的位置为图片的左上角）,单位为像素；例如：60
+     * @param width             方框的宽度,单位为像素；例如：100
+     * @param height            方框的高度,单位为像素；例如：200
      * @author guguoyu
      */
     public static void drawRectangle(String originPathName, String generatedPathName, int x, int y, int width, int height) {
